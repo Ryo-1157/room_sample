@@ -127,7 +127,7 @@ export default function Home() {
         </ul>
         <div className={styles.viewmore_wrap}>
           <div className={styles.viewmore}>
-            <Link href="/about">View More</Link>
+            <Link href="/works">View More</Link>
           </div>
         </div>
       </section>
