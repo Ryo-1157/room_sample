@@ -1,6 +1,6 @@
 import React from "react";
 import Baseline from "./components/Baseline";
-import UnderMv from "./components/underMv";
+import UnderMv from "./components/UnderMv";
 import styles from "../styles/common.module.scss";
 import SectionTitle from "./components/SectionTitle";
 import SectionImage from "./components/SectionImage";
