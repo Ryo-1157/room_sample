@@ -1,0 +1,46 @@
+.header {
+  background-color: #0f4c75;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.header div {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .header div {
+    height: 80px;
+  }
+}
+.header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul li {
+  margin-right: 20px;
+}
+.header nav ul li:last-child {
+  margin-right: 0;
+}
+.header a {
+  color: #fff;
+}
+.header h1 a {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+@media screen and (max-width: 600px) {
+  .header h1 a {
+    font-size: 20px;
+  }
+}

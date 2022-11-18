@@ -1,0 +1,35 @@
+.mockup {
+  p {
+    white-space: pre-wrap;
+    &.title {
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      line-height: 1.25em;
+      color: #3382b8;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    &.desc {
+      text-align: center;
+      line-height: 2em;
+      letter-spacing: 0.08em;
+    }
+  }
+  img {
+    position: relative !important;
+    width: 100% !important;
+    height: unset !important;
+  }
+  @media screen and (max-width: 600px) {
+    p {
+      &.title {
+        font-size: 18px;
+      }
+      &.desc {
+        font-size: 14px;
+      }
+    }
+  }
+}

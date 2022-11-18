@@ -1,0 +1,12 @@
+.dl {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #0f4c75;
+}
+.dl dt {
+  width: 100px;
+}
+.dl dd {
+  flex-grow: 1;
+}

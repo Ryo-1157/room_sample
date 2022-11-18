@@ -1,0 +1,13 @@
+.text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3382b8;
+  text-align: right;
+  margin: 0 auto;
+  border-bottom: 2px solid #3382b8;
+  line-height: 1.25em;
+  letter-spacing: 0.08em;
+  display: inline-block;
+  white-space: pre-wrap;
+  padding-bottom: 60px;
+}
